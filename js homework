@@ -62,3 +62,16 @@ var mean = sum/x.length
 console.log(mean)
 
 7.
+var x = 23
+
+if
+  (x % 15 === 0)
+  console.log("FizzBuzz");
+else if
+  (x % 3 === 0)
+  console.log("Fizz");
+else if
+  (x % 5 === 0)
+  console.log("Buzz");
+else
+  console.log(x + ' is not divisible by 3 or 5');
