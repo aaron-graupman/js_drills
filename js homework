@@ -1,0 +1,64 @@
+1.
+
+function addTwoNumbers(num1, num2) {
+  return num1 + num2
+}
+
+var result = addTwoNumbers(4, 3)
+  console.log(result)
+
+
+2.
+
+  var sum = 0
+
+var x = [1, 2, 3, 4]
+for (var i = 0; i < x.length; i++) {
+var sum = x[i] + sum
+}
+
+console.log(sum)
+
+
+3.
+var x = 50
+var y = (((x - 32)* 5)/9)
+console.log(y)
+
+
+4.
+var vowelCount = function(str) {
+  var count = 0;
+  for(var i = 0; i < str.length; i++) {
+    if(str[i] == 'a' || str[i] == 'i' || str[i] == 'o' ||str[i] == 'e' ||str[i] == 'u') {
+      count+=1;
+    }
+  }
+ console.log(count);
+}
+vowelCount('cupcake')
+
+
+5.
+var num1 = [1, 2, 3, 4, 5, 6]
+var num2 = [1, 2, 3, 4, 5, 6]
+var rand1 = num1[Math.floor(Math.random() * num1.length)];
+var rand2 = num2[Math.floor(Math.random() * num2.length)];
+
+var sum = rand1 + rand2
+console.log(sum)
+
+
+6.
+var sum = 0
+var mean = 0.0
+
+var x = [1, 2, 3, 4]
+for (var i = 0; i < x.length; i++) {
+var sum = x[i] + sum
+var mean = sum/x.length
+}
+
+console.log(mean)
+
+7.
